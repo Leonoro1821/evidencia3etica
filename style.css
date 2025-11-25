@@ -56,3 +56,36 @@ main {
     border-radius: 10px;
     border: none;
 }
+#justificacion,
+#conclusion-reflexion {
+    background: var(--section, #fffdf7); /* mismo fondo beige suave */
+    padding: 36px;
+    margin-bottom: 36px;
+    border-radius: 12px;
+    border-left: 8px solid var(--accent, #b8966b);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+/* Titulares dentro de estas secciones */
+#justificacion h2,
+#conclusion-reflexion h2 {
+    color: var(--accent, #b8966b);
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+#conclusion-reflexion h3 {
+    color: #6b553d;
+    margin-bottom: 6px;
+    margin-top: 18px;
+    font-size: 1.05rem;
+}
+
+/* Párrafos con lectura cómoda */
+#justificacion p,
+#conclusion-reflexion p {
+    line-height: 1.7;
+    font-size: 1.02rem;
+    color: var(--text, #333);
+    margin-bottom: 10px;
+}
